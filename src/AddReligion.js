@@ -4,8 +4,16 @@ import "./AddReligion.css";
 function AddReligion() {
   return (
     <div>
-      <main>
-        <div className="container mt-4">
+      <main className="cn">
+      <select class="form-select mb-1 sc" aria-label="Default select example">
+  <option selected>Select</option>
+  <option value="1">Religion</option>
+  <option value="2">Caste</option>
+  <option value="3">Sub Caste</option>
+  <option value="3">City</option>
+  <option value="3">State</option>
+</select>
+        <div className="container mt-4 ck">
           <div className="row">
             <div className="col-md-6 mb-4">
               <div className="card indigo form-white">

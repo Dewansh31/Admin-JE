@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AddReligion.css";
 
-function AddCaste() {
+function AddCity() {
   return (
     <div>
     <main className="cn">
@@ -18,7 +18,7 @@ function AddCaste() {
           <div className="col-md-6 mb-4">
             <div className="card indigo form-white">
               <div className="card-body">
-                <h5 className="default-text">All Caste</h5>
+                <h5 className="default-text">All City</h5>
                 <div class="table-responsive">
                   <table class="table">
                     <thead>
@@ -129,7 +129,7 @@ function AddCaste() {
           <div className="col-md-6 mb-4">
             <div className="card">
               <div className="card-body">
-                <h5 className="default-text">Add New Caste</h5>
+                <h5 className="default-text">Add New City</h5>
                 {/*Body*/}
                 <div className="md-form">
                   <label htmlFor="defaultForm-email">Name</label>
@@ -154,4 +154,4 @@ function AddCaste() {
   )
 }
 
-export default AddCaste
+export default AddCity

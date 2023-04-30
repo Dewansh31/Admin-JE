@@ -4,6 +4,7 @@ import "./AddMember.css"
 export default function AddMember() {
   return (
     <div>
+      
   <div className="wrapper">
     <div className="title">
       Add New Member

@@ -1,9 +1,19 @@
 
 body{
-    background-color: #e4eaee;
+    background-color: #c0ccca;
+    /* background: url("https://static.vecteezy.com/system/resources/thumbnails/009/740/424/original/red-love-heart-element-particle-flowing-on-pink-background-romantic-cg-abstract-glitter-for-valentine-and-wedding-free-video.jpg"); */
+    /* background-repeat: no-repeat; */
 }
 .rk{
     margin-right: 600px;
+}
+.cn{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.sc{
+    width: 90%;
+    margin: auto;
 }
 
 .hm-gradient {
@@ -65,4 +75,12 @@ body{
 }
 .near-moon-gradient {
     background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+}
+
+@media(max-width: 459px){
+    .cn {
+      margin-left: 0;
+     
+    }
+  
 }

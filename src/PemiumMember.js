@@ -4,7 +4,7 @@ import "./FreeMember.css"
 function PemiumMember() {
   return (
     <div>
-      <div className="main-content">
+      <div className="main-content mc">
         <h5>Premium Members</h5>
          <div className="records table-responsive">
           <div className="record-header">

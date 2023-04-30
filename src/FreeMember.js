@@ -3,14 +3,24 @@ import "./FreeMember.css"
 
 function FreeMember() {
   return (
-    <div className="main-content">
+    <>
+    
+    <div className="main-content mc">
+    <select class="form-select mb-2" aria-label="Default select example">
+  <option selected>Select Member</option>
+  <option value="1">Free Member</option>
+  <option value="2">Premium Member</option>
+  <option value="3">All Member</option>
+</select>
          <div className="records table-responsive">
           <div className="record-header">
+          
             <div className="add">
-              <span>Entries</span>
+              <span><h5>Free Members</h5></span>
+              {/* <span>Entries</span>
               <select name id>
                 <option value>ID</option>
-              </select>
+              </select> */}
               <button>Add record</button>
             </div>
             <div className="browse">
@@ -191,7 +201,7 @@ function FreeMember() {
           </div>
         </div>
    </div>
-
+   </>
   )
 }
 
